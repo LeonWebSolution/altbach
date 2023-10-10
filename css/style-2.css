@@ -1,0 +1,188 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+
+a[class] {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: 'Acrom(medium)';
+    src:
+        url('../fonts/Acrom-Medium.woff'),
+        url('../fonts/AnyConv.com__Acrom-Medium.woff2');
+
+
+}
+
+ul[class] {
+    padding-left: 35px;
+}
+
+.container {
+    max-width: 1540px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+.title {
+    color: #000;
+    text-align: center;
+    font-family: 'Acrom(medium)';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.5%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.sub-title-1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Acrom(medium)';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding-bottom: 40px;
+}
+
+.title-1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Acrom(medium)';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding-bottom: 40px
+}
+
+
+.text-1 {
+    color: #000;
+    font-family: 'Acrom(medium)';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding-bottom: 40px;
+}
+
+.text-2 {
+    color: #000;
+    font-family: 'Acrom(medium)';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+
+
+
+@media (max-width:1440px) {
+
+
+    .container {
+        max-width: 1300px;
+        padding: 0 80px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+@media (max-width:560px) {
+
+
+    .container {
+        max-width: 600px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+
+
+    .text-2 {
+        font-size: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .text-1 {
+        font-size: 10px;
+    }
+
+    .title-1 { 
+        font-size: 14px;
+    }
+
+    .sub-title-1 {
+        font-size: 14px;
+    }
+
+    ul[class] {
+        padding-left: 15px;
+    }
+    
+}
