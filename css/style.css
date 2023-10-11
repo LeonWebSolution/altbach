@@ -3238,6 +3238,20 @@ body {
     .title__workdo_top {
         text-align: center
     }
+    .custom-pagination{
+        position: static;
+        width: 100%;
+    }
+    .pag {
+        display: flex;
+        gap: 0;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .custom-pagination{
+        padding: 10px;
+        gap: 15px;
+    }
 
     .border__two-1::before,
     .img__chem__blok-bor-2,
